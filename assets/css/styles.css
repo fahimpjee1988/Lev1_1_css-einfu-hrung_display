@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    height: 100vh;
+}
+button{
+    width: 600px;
+    height:50px;
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+    margin: 40px;;
+
+}
+
+img{
+    display:none;
+    margin:0 auto;
+    size: 200px 200px;
+
+}
+button:hover+img{
+    display:block
+}
+
